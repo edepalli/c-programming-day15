@@ -1,0 +1,17 @@
+/* print result of power and exponential */
+#include<stdio.h>
+int main()
+{ 
+    int b,e,r=1;
+    printf("enter base number:");
+    scanf("%d",&b);
+    printf("enter exponential number:");
+    scanf("%d",&e);
+    while(e>0)
+    { 
+       r=r*b;
+       e--;
+	}
+	printf("\n result:%d",r);
+	return 0;
+}
