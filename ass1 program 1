@@ -1,0 +1,13 @@
+/* print point values between 1 and 2 */
+#include<stdio.h>
+int main()
+{
+	 float n=1.00;
+	 float i=0.10;
+	 while(n<2.00)
+	 { 
+	    printf("%.2f\n",n);
+	    n=n+i;
+	 }
+	 return 0;
+}
